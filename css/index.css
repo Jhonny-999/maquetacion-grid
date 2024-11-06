@@ -1,0 +1,71 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    width: 100%;
+    height: 100%;
+}
+
+.cabeza 
+{
+    width: 100%;
+    height: 70px; 
+
+    background-color: blue;
+}
+
+.cajon
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    display: grid;
+    grid-template-columns: 48% 48%;
+    justify-content: space-evenly;
+}
+
+.izq 
+{
+    height: 500px;
+
+    background-color: gray;
+}
+
+.der 
+{
+    height: 460px;
+    padding: 20px 0;
+    
+    background-color: blue;
+}
+
+.mid 
+{
+    width: 95%;
+    height: 220px;
+    margin-bottom: 20px;
+
+    background-color: lightblue;
+}
+
+.inf 
+{
+    width: 100%;
+    height: 300px;
+    margin-bottom: 70px;
+
+    background-color: brown;
+}
+
+.pie 
+{
+    width: 100%;
+    height: 70px;
+    margin-top: -50px;
+    
+    background-color: blue;
+}
